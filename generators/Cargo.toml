@@ -3,4 +3,8 @@ name = "generators"
 version = "0.1.0"
 authors = ["sarit.seal <sarit.seal@gmail.com>"]
 
-[dependencies]
+[profile.dev]
+opt-level = 3
+
+[profile.release]
+opt-level = 3

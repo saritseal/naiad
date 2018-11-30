@@ -16,3 +16,6 @@ stats = {path="./stats"}
 
 [profile.dev]
 opt-level = 3
+
+[profile.release]
+opt-level = 3
